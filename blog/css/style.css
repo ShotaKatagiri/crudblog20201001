@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+/* ページ全体 */
+
+body {
+  font-size: 14px;
+  font-family: Arial;
+}
+h1, h2, h3, p {
+  margin: 0;
+  font-size: 100%;
+}
+
+.right {
+  text-align: right;
+}
+
+/* コンテナ */
+
+.container {
+  width: 800px;
+  margin: auto;
+}
+
+/* ヘッダ */
+
+.header {
+  height: 50px;
+  border-bottom: solid 2px #555;
+  margin-bottom: 10px;
+}
+.header h1 {
+  font-size: 200%;
+  color: #333;
+  padding: 5px;
+}
+.header h1 a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* メイン */
+
+.main {
+  float: left;
+  width: 550px;
+}
+.main .article {
+  border: solid 1px #333;
+  margin-bottom: 10px;
+}
+.main .article .title {
+  color: #333;
+  background-color: #ddd;
+  padding: 5px;
+}
+.main .article .title h2 {
+  font-size: 120%;
+  margin-bottom: 5px;
+}
+.main .article .title h3 {
+  font-size: 90%;
+}
+.main .article .body {
+  padding: 5px;
+}
+
+/* サイド */
+
+.side {
+  float: right;
+  width: 240px;
+}
+.side p {
+  margin: 5px 0;
+}
+.side .sidebox {
+  border: solid 1px #555;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.side .sidebox h2 {
+  font-size: 120%;
+}
+.side ul {
+  padding: 0 20px;
+}
+
+/* 送信フォーム */
+.postform table {
+  margin: 20px 0;
+}
+.postform th {
+  vertical-align: top;
+  padding: 5px;
+}
+.error {
+  margin: 4px 0;
+  font-size: 80%;
+  font-weight: bold;
+	color: #900;
+	letter-spacing: .1px;
+}
